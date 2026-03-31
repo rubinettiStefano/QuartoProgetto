@@ -34,7 +34,17 @@ public class EsempioListe1
         //stampo tutti numeri in lista
         for(int i=0;i<numeriInLista.size();i++)
         {
-            Console.print(numeriInLista.get(i));
+            //                      numeriInLista[i]
+           Integer elementoIesimo = numeriInLista.get(i);
+           Console.print(elementoIesimo);
         }
+        //EQUIVALENTE AL CICLO SOPRA
+        Console.print("STAMPA LISTA CON FOR-EACH");
+        //PER OGNI ELEMENTO CHE CHIAMO elementoIesimo DENTRO NUMERIINLISTA
+        for(Integer n : numeriInLista)
+        {
+            Console.print(n);
+        }
+
     }
 }
