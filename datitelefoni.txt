@@ -1,0 +1,3 @@
+Samsung,S26,1300
+Apple,Iphone16,1100
+Motorola,A16,250
