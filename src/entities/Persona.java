@@ -14,7 +14,7 @@ public class Persona
         eta=e;
     }
 
-    public String presentati()
+    public String toString()
     {
         return "Ciao sono "+nome+" "+cognome+" e ho "+eta+" anni";
     }

@@ -1,2 +1,4 @@
 Stefano,Rubinetti,30
 Eric,Fasce,23
+Gennaro,Castellone,27
+Rosario,Schiano Di Cola,21

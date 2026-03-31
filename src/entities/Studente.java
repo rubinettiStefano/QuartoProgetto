@@ -23,8 +23,8 @@ public class Studente extends Persona {
     }
 
     @Override
-    public String presentati() {
-        String risultatoPresentatiDiPersona = super.presentati();
+    public String toString() {
+        String risultatoPresentatiDiPersona = super.toString();
 
         return risultatoPresentatiDiPersona + " e ho una media di " + media;
     }

@@ -31,7 +31,12 @@ public class LettorePersone {
             persone.add(p);
         }
 
-        Console.print("TERMINA");
+        ArrayList<Persona> personeVecchie = new ArrayList<>();
+        for(Persona p : persone)
+            if(p.eta>29)
+                personeVecchie.add(p);
+
+        Console.print(personeVecchie);
 
     }
 }
