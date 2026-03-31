@@ -1,3 +1,4 @@
 Samsung,1300,S26
 Apple,1100,Iphone16
+Apple,2700,Iphone17 Pro Max Giga Ultra Shish
 Motorola,250,A16
