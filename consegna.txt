@@ -1,0 +1,17 @@
+1) Leggere numeri da file numeri.txt e filtrare in una lista solo quelli PARI (serve %)
+2) Leggere Stringhe da nomi.txt e filtrare solo quelli più corti di 7 lettere
+3) Leggere Stringhe da nomi.txt e filtrare solo quelli più corti di 7 lettere e che iniziano per a (&&)
+4) Leggere numeri double da file apposito e filtrare solo quelli compresi tra 30 e 60
+5) Leggere Stringhe da nomi.txt e trasformarli nella loro versione tutta maiuscola
+6) Leggere Stringhe da nomi.txt e trasformarli nella loro lunghezza
+7) Leggere numeri da file numeri.txt e trasformali sommando a loro 5
+
+DA QUI IN POI FALCOLTATIVI E PARECCHIO più COMPLESSI
+1) Leggere numeri double e tenere solo quelli il cui decimale è maggiore di 0.5
+(int)
+2) Leggere interi e tenere solo quelli multipli di 3,5,7 non pari
+
+3) Leggere String e trasformare in versione anonimizzata del nome con solo prime 2 lettere e . (esempio Stefano -> St.)
+substring
+4) Leggere double e trasformare approssimando per intero più vicino (es 2.3 -> 2 2.7->3 2.5 ->3)
+(int)
