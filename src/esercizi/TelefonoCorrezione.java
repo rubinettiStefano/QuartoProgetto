@@ -1,9 +1,12 @@
 package esercizi;
 
+import java.util.ArrayList;
+
 public class TelefonoCorrezione
 {
     private String marca,modello;
     private int prezzo;
+    private ArrayList<String> appPreinstallate = new ArrayList<>();
 
     public TelefonoCorrezione(){}
 
@@ -11,6 +14,22 @@ public class TelefonoCorrezione
         this.marca = marca;
         this.modello = modello;
         this.prezzo = prezzo;
+    }
+
+    public ArrayList<String> getAppPreinstallate()
+    {
+        return appPreinstallate;
+    }
+
+    public int lunghezzaTotaleAppPreinstallate()
+    {
+        int res = 0;
+        for(String app: appPreinstallate)
+        {
+            res += app.length();
+        }
+
+        return res;
     }
 
     public String getMarca() {
