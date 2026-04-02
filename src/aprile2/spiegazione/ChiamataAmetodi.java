@@ -12,6 +12,16 @@ public class ChiamataAmetodi
         //stampaTutti(mobili);
 
         Mobile m1 = mobili.get(0);
+//        m1.setMateriale("aaaaa");
+        //scrittura liscia
+//        m1.materiale = "Pippi";
+        //lettura liscia
+//        String materialedim = m1.materiale;
+
+        //scrittura con setter
+        m1.setColore("giallo");
+        //lettura con getter
+        String materialedim1 = m1.getMateriale();
 //        try
 //        {
 //            double prezzoScontato = m1.prezzoScontato(0.2);
@@ -24,7 +34,6 @@ public class ChiamataAmetodi
 
         try
         {
-            Console.print(m1.toString());
         }
         catch (RuntimeException e)
         {
@@ -47,9 +56,9 @@ public class ChiamataAmetodi
     {
         mobili.add(
                 new Mobile(
-                        "Legno di Quercia",
-                        "Soggiorno Moderno",
-                        "Naturale",
+                        null,
+                        "",
+                        "Blallo",
                         -450.00
                 )
         );
@@ -57,12 +66,12 @@ public class ChiamataAmetodi
                 new Mobile(
                                 "Acciaio e Vetro",
                                 "Scrivania Industrial",
-                                "Nero Opaco",
+                                "Nero",
                                 220.50
                         )
         );
-        mobili.add(new Mobile("Velluto", "Poltrona Relax", "Blu Notte", 315.00));
+        mobili.add(new Mobile("Velluto", "Poltrona Relax", "Blu", 315.00));
         mobili.add(new Mobile("MDF Laccato", "Libreria Minimal", "Bianco", 120.00));
-        mobili.add(new Mobile("Pino Massiccio", "Armadio Rustico", "Noce", 580.99));
+        mobili.add(new Mobile("Pino Massiccio", "Armadio Rustico", "Marrone", 580.99));
     }
 }
